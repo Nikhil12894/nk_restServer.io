@@ -5,3 +5,6 @@ jdk:
 install:
 - mvn -N io.takari:maven:wrapper
 - ./mvnw install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+
+addons:
+  ssh_known_hosts: https://nikhil12894.github.io/nk_restClint.io/
